@@ -4,13 +4,12 @@
 */
 
 
-
 function getPromise () {
    const promise: Promise<Array<string | number>> = new Promise((resolve) => {
     resolve(['Text', 50]);
    });
   
-   return promise
+  return promise;
 }
 
 getPromise()
